@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Hello_world</h1>
+<p>
+    the condition statement is {{condition_statement}}
+        {{block.super}}
+    {% if condition_statement == "is enabled" %}
+        printing only even numbers since conditional statement is enabled
+        {% for even_num in Even_list %}
+            Even number is {{even_num}}<br/>
+        {% endfor %}
+    {% elif condition_statement == "is not enabled" %}
+        {% for odd_num in odd_list %}
+            odd number is {{odd_num}}<br/>
+        {% endfor %}
+    {% endif %}
+</p>
+{% endblock content %}
