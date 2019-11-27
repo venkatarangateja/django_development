@@ -1,26 +1,48 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>this is my fist page</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>this is my page with variable {{bool_item}} </p>-->
+<!--{% if bool_item == True %}-->
+<!--Random number is {{ num }}-->
+<!--{% endif %}-->
+<!--<p>To keep things nice and simple, we’re going to be using Slack’s Web API.-->
+<!--    This means that all we need to be able to write to a Slack channel is make HTTP POST requests.</p>-->
+<!--<p>-->
+<!--{% for items in some_list %}-->
+<!--    {% if items|divisibleby:"2" %}-->
+<!--        Even number-->
+<!--    {% else %}-->
+<!--        Odd number-->
+<!--    {% endif %}-->
+<!--    {{ items }}<br/>-->
+<!--{% endfor %}-->
+<!--</p>-->
+<!--<p> the number is {{ items }} </p>-->
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>this is my fist page</title>
+    <title>This is my first coding page</title>
 </head>
 <body>
-<p>this is my page with variable {{bool_item}} </p>
-{% if bool_item == True %}
-Random number is {{ num }}
-{% endif %}
-<p>To keep things nice and simple, we’re going to be using Slack’s Web API.
-    This means that all we need to be able to write to a Slack channel is make HTTP POST requests.</p>
 <p>
-{% for items in some_list %}
-    {% if items|divisibleby:"2" %}
-        Even number
-    {% else %}
-        Odd number
+    the condition statement is {{condition_statement}}
+    {% if condition_statement == "is enabled" %}
+        printing only even numbers since conditional statement is enabled
+        {% for even_num in Even_list %}
+            Even number is {{even_num}}<br/>
+        {% endfor %}
+    {% elif condition_statement == "is not enabled" %}
+        {% for odd_num in odd_list %}
+            odd number is {{odd_num}}<br/>
+        {% endfor %}
     {% endif %}
-    {{ items }}<br/>
-{% endfor %}
 </p>
-<p> the number is {{ items }} </p>
 </body>
 </html>
