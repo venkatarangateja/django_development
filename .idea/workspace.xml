@@ -10,24 +10,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://E:/Software/Python/2.7.15/Scripts/django-admin.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/old_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" lean-forward="true" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/production.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/local.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/base.py" />
+        <option value="$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/__init__.py" />
+        <option value="$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/local.py" />
+        <option value="$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/production.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="738" />
+    <option name="y" value="57" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -51,6 +108,40 @@
               <item name="django_development" type="462c0819:PsiDirectoryNode" />
               <item name="Dev" type="462c0819:PsiDirectoryNode" />
               <item name="trydjango_test_1_11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_development" type="462c0819:PsiDirectoryNode" />
+              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="trydjango_test_1_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_development" type="462c0819:PsiDirectoryNode" />
+              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="trydjango_test_1_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mupicky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_development" type="462c0819:PsiDirectoryNode" />
+              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="trydjango_test_1_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mupicky" type="462c0819:PsiDirectoryNode" />
+              <item name="mupicky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_development" type="462c0819:PsiDirectoryNode" />
+              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="trydjango_test_1_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mupicky" type="462c0819:PsiDirectoryNode" />
+              <item name="mupicky" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,9 +212,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10857909" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14544237" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.43847242" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26732674" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -143,8 +234,58 @@
   <component name="editorHistoryManager">
     <entry file="file://E:/Software/Python/2.7.15/Scripts/django-admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/old_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/trydjango_test_1_11/src/mupicky/mupicky/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
