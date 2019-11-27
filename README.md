@@ -1,2 +1,2 @@
 # django_development
-repository for django_developement
+repository for django_developement_version_1
