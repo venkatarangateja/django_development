@@ -30,10 +30,7 @@
     <title>{% block head_title %}MuyPicky{% endblock head_title %}</title>
 </head>
 <body>
-<h1>my muypicky website.com</h1>
-<a href="/">Homepage</a>
-<a href="/about">About</a>
-<a href="/contact">contact</a>
+{% include "snippets/nav.html" %}
 <div class="container">
 {% block content %}
     this is inherited from base.html
