@@ -28,6 +28,7 @@
 <!DOCTYPE html>
 <head>
     <title>{% block head_title %}MuyPicky{% endblock head_title %}</title>
+    {% include "snippets/css.html" %}
 </head>
 <body>
 {% include "snippets/nav.html" %}
@@ -36,5 +37,6 @@
     this is inherited from base.html
 {% endblock content %}
 </div>
+{% include "snippets/js.html" %}
 </body>
 </html>
