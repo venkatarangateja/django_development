@@ -3,7 +3,8 @@ from __future__ import unicode_literals
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.views import View
-from django.views.generic import TemplateView
+from .models import RestaurantLocation
+from django.views.generic import TemplateView ,ListView
 
 # def home(request):
 # 	Even_list = list()
@@ -39,5 +40,21 @@ from django.views.generic import TemplateView
 
 def Restaurant_list_view(request):
 	template_name= 'restaurants/restaurant_list.html'
-	context = {"obj_list": [12,2,323,23]}
+	queryset = RestaurantLocation.objects.all()
+	context = {"obj_list": queryset}
 	return render(request,template_name,context)
+
+
+class RestaurantListView(ListView):
+	queryset = RestaurantLocation.objects.all()
+	template_name = 'restaurants/restaurant_list.html'
+
+
+class AndhraRestaurantListView(ListView):
+	queryset = RestaurantLocation.objects.filter(category__iexact = 'spicy')
+	template_name = 'restaurants/restaurant_list.html'
+
+
+class ChennaiRestaurantListView(ListView):
+	queryset = RestaurantLocation.objects.filter(category__iexact = 'Chennai')
+	template_name = 'restaurants/restaurant_list.html'
